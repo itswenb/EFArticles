@@ -62,4 +62,15 @@
   <% if (theme.busuanzi || theme.duoshuo_shortname){ %>
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <% } %>
+
+  <style type="text/css">
+    #bom {
+        position: fixed;
+        width:100%;
+        left:0%;
+        bottom: 0;
+        _position: absolute;
+        _top: expression(document.documentElement.clientHeight + document.documentElement.scrollTop - this.offsetHeight);
+    }
+  </style>
 </head>
